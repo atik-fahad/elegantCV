@@ -1,0 +1,65 @@
+.body {
+  background-color: #fbfdff;
+}
+h1,
+h4 {
+  color: #878787;
+}
+.sale {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  background: #68c2e8;
+}
+.sale-text {
+  position: relative;
+  color: #68c2e8;
+}
+a:hover {
+  opacity: 0.5;
+}
+.sale span {
+  position: relative;
+  top: 34%;
+  left: 29%;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+}
+.template-content {
+  grid-area: content;
+  text-align: center;
+  justify-self: center;
+}
+.demo1 {
+  grid-area: demo1;
+  text-align: center;
+  justify-self: center;
+}
+.demo2 {
+  grid-area: demo2;
+  justify-self: right;
+  text-align: center;
+}
+.demo3 {
+  grid-area: demo3;
+  justify-self: left;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+  grid-template-areas:
+    ". content content content content ."
+    ". demo1 demo1 demo1 demo1 ."
+    ". demo2 demo2 demo3 demo3 .";
+}
+.h3 {
+  font-size: 1.2rem;
+}
+img {
+  max-height: 250px !important;
+}
