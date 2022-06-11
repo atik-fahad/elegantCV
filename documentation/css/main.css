@@ -1,0 +1,67 @@
+:root {
+  --brandColor: #5f99ff;
+  --secondaryColor: #47b5ff;
+  --thirdColor: #dff6ff;
+  --background: #f9f9f9;
+}
+body {
+  background-color: var(--background);
+}
+body .container {
+  display: grid;
+  grid-template-areas: "sidebar main";
+  grid-template-columns: 1fr 5fr;
+  gap: 1.5rem;
+}
+aside {
+  grid-area: sidebar;
+}
+main {
+  grid-area: main;
+}
+
+aside {
+  height: 100vh;
+  width: 300px;
+}
+aside h2,
+aside ul,
+aside .copyright {
+  float: right;
+}
+aside ul {
+  list-style: none;
+}
+aside ul li {
+  border-bottom: 1px solid var(--brandColor);
+  text-align: right;
+}
+aside ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+aside ul li a.active {
+  color: var(--secondaryColor);
+}
+.heading {
+  padding: 12px 15px;
+  background-color: var(--brandColor);
+  color: #f9f9f9;
+  border: 1px solid var(--brandColor);
+  border-radius: 5px;
+}
+.heading {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#custom-service {
+  margin-bottom: 200px;
+}
+p {
+  line-height: 2em;
+}
+
+ol li {
+  line-height: 2.5em;
+}
