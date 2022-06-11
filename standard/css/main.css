@@ -10,7 +10,7 @@ body {
   --secondaryBackground: #fff6ea;
   --mainColor: #354259;
   --secondaryColor: rgb(153, 153, 153);
-  --opacityMSection: 0.1;
+  --opacityMSection: 0.3;
   --processGradient: #f3f0ea;
   --skillBackground: #f0f0f0;
   --brandBackground: #f0f0f0;
@@ -138,6 +138,15 @@ body.dark-mode .main-image .banner-dark {
 }
 body:not(.dark-mode) .main-image .banner-light {
   display: block;
+}
+body:not(.dark-mode) .main-image {
+  text-align: center;
+}
+body:not(.dark-mode) .text small {
+  color: var(--mainColor);
+}
+body:not(.dark-mode) .text p {
+  color: var(--mainColor);
 }
 /* responsive for hero */
 @media only screen and (max-width: 768px) {

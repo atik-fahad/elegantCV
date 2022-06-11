@@ -10,7 +10,7 @@ body {
   --secondaryBackground: #fff6ea;
   --mainColor: #354259;
   --secondaryColor: rgb(153, 153, 153);
-  --opacityMSection: 0.1;
+  --opacityMSection: 0.3;
   --processGradient: #f3f0ea;
   --skillBackground: #f0f0f0;
   --brandBackground: #f0f0f0;
@@ -117,6 +117,15 @@ nav .navbar-brand:hover {
 
 body .main-image .banner-effect::after {
   background-image: url(../images/front-banner.jpg);
+}
+body:not(.dark-mode) .main-image {
+  text-align: center;
+}
+body:not(.dark-mode) .text small {
+  color: var(--mainColor);
+}
+body:not(.dark-mode) .text p {
+  color: var(--mainColor);
 }
 
 /* responsive for hero */
