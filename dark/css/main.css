@@ -126,19 +126,7 @@ nav .navbar-brand:hover {
 body.dark-mode .main-image .banner-effect::after {
   background-image: url(../images/banner__gradient.jpg);
 }
-body .main-image .banner-effect::after {
-  background-image: url(../images/front-banner.jpg);
-}
-.banner-dark,
-.banner-light {
-  display: none;
-}
-body.dark-mode .main-image .banner-dark {
-  display: block;
-}
-body:not(.dark-mode) .main-image .banner-light {
-  display: block;
-}
+
 /* responsive for hero */
 @media only screen and (max-width: 768px) {
   .main-section .text {
