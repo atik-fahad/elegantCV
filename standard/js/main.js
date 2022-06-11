@@ -1,3 +1,10 @@
+/*
+* Template Name: ElegantCV - Personal Resume / CV / Portfolio Template
+* Author: AtikFahad
+* Author URL: http://themeforest.net/user/atikfahad
+* Version: 1.0.0
+*/
+
 // light vs night mode start
 let docBody = document.body;
 let toggleMode = document.querySelector('.toggle-mode');

@@ -1,6 +1,12 @@
+/*
+* Template Name: ElegantCV - Personal Resume / CV / Portfolio Template
+* Author: AtikFahad
+* Author URL: http://themeforest.net/user/atikfahad
+* Version: 1.0.0
+*/
+
 function focusToHide(e) {
     document.querySelector('#result-to-email span').innerHTML = '';
-    // document.querySelector('#result-to-email i').classList.add('not-needed');
 }
 function validateEmail(email) {
     return String(email)

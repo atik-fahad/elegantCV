@@ -1,3 +1,10 @@
+/*
+* Template Name: ElegantCV - Personal Resume / CV / Portfolio Template
+* Author: AtikFahad
+* Author URL: http://themeforest.net/user/atikfahad
+* Version: 1.0.0
+*/
+
 .timeline {
   position: relative;
   width: 660px;
@@ -59,8 +66,6 @@
     rgb(80, 80, 80) 92%,
     rgba(80, 80, 80, 0) 100%
   );
-
-  /* z-index: 5; */
 }
 
 .timeline li {

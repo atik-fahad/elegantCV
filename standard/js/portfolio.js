@@ -1,5 +1,10 @@
+/*
+* Template Name: ElegantCV - Personal Resume / CV / Portfolio Template
+* Author: AtikFahad
+* Author URL: http://themeforest.net/user/atikfahad
+* Version: 1.0.0
+*/
 const { gsap, imagesLoaded } = window;
-
 
 const buttons = {
 	prev: document.querySelector(".btn--left"),
@@ -231,19 +236,8 @@ const waitForImages = () => {
 				loadedImages++;
 				let loadProgress = loadedImages / totalImages;
 
-				// gsap.to(loaderEl, {
-				// 	duration: 1,
-				// 	scaleX: loadProgress,
-				// 	backgroundColor: `hsl(${loadProgress * 120}, 100%, 50%`,
-				// });
-
 				if (totalImages == loadedImages) {
 					gsap.timeline()
-					// 	.to(".loading__wrapper", {
-					// 	duration: 0.8,
-					// 	opacity: 0,
-					// 	pointerEvents: "none",
-					// })
 						.call(() => init());
 				}
 			}

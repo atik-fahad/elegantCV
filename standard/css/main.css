@@ -1,3 +1,10 @@
+/*
+* Template Name: ElegantCV - Personal Resume / CV / Portfolio Template
+* Author: AtikFahad
+* Author URL: http://themeforest.net/user/atikfahad
+* Version: 1.0.0
+*/
+
 body {
   --mainBackground: #f3f0ea;
   --secondaryBackground: #fff6ea;
@@ -45,6 +52,7 @@ strong {
 }
 
 p,
+a,
 li,
 span,
 label,
@@ -201,8 +209,6 @@ body:not(.dark-mode) .main-image .banner-light {
 .recent-projects h2 {
   font-size: 3.5em;
 }
-.recent-projects {
-}
 .career {
   margin-top: 370px;
 }
@@ -267,9 +273,6 @@ body:not(.dark-mode) .main-image .banner-light {
 .contact ul li a:hover i {
   color: var(--brandColor);
 }
-/* .contact ul li p:hover {
-	  color: var(--mainColor);
-  } */
 
 .form-control {
   background-color: var(--mainBackground);
@@ -397,12 +400,7 @@ footer a:hover {
 .progress-bar {
   transition-duration: 3s;
 }
-/* @media only screen and (min-width: 768px) {
-	
-	section#skillset {
-		height: 100vh;
-	}
-} */
+
 .d-flex {
   align-items: center;
   padding: 5px;
@@ -465,10 +463,6 @@ footer a:hover {
 }
 
 /* custom cursor end  */
-
-/* * {
-	outline: 1px solid red;
-} */
 
 #result-to-email i {
   color: var(--brandColor);
